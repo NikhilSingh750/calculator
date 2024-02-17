@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    color: orange;
+}
+
+.container{
+    height: 400px;
+}
+.buttons-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    /* padding: 20px 20px; */
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin: 5px 5px;
+    box-shadow: 2px 2px 5px orange;
+    border: none;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.button:hover{
+    background: orange;
+}
+.display{
+    align-items: center;
+    text-align: center;
+}
+.input{
+    height: 40px;
+    width: 225px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 2px solid orange;
+    font-size: 20px;
+}
+.AC{
+    width: 170px;
+    height: 50px;
+    border-radius: 50px;
+}
